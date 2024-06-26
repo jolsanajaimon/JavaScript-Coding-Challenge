@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CodingChallenge.css">
+    <script defer src="CodingChallenge.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form" action="#">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Jolsana" id="username" />
+                <small>Username cannot be blank</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="jolsana@gmail.com" id="email" />
+                <small>Email cannot be blank</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" id="password" />
+                <small>Password cannot be blank</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Password Check</label>
+                <input type="password" placeholder="Password two" id="password2" />
+                <small>Password check cannot be blank</small>
+            </div>
+            <button type="submit">Submit</button>
+            <div id="form-message" class="form-message"></div>
+        </form>
+    </div>
+</body>
+</html>

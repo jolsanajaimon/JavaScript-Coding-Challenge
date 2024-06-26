@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7f00ff; 
+}
+
+.container {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: left; 
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-control small {
+    color: #e74c3c;
+    visibility: hidden;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-message {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.form-message.success {
+    display: block;
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.form-message.error {
+    display: block;
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #800080; 
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
